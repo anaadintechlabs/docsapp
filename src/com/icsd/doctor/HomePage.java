@@ -1172,11 +1172,11 @@ public class HomePage
 		   String text="";
 		   if(fName!=null && !fName.isEmpty())
 		   {
-		    text="S.NO: "+ index+" Name: "+patientName.toUpperCase()+" " +relationType + ": " +fName.toUpperCase()+" Gender: "+gen + " Date: "+ date;
+		    text="S.NO: "+ index+" NAME: "+patientName.toUpperCase()+" " +relationType.toUpperCase() + ": " +fName.toUpperCase()+" GENDER: "+gen + " DATE: "+ date;
 		   }
 		   else
 		   {
-			    text=" S.no: "+ index+" Name: "+patientName.toUpperCase()+" " +" Gender: "+gen + " Date: "+ date;
+			    text=" S.NO: "+ index+" NAME: "+patientName.toUpperCase()+" " +" GENDER: "+gen + " DATE: "+ date;
 		   }
 		    HWPFDocument doc =null;
 		    XWPFDocument document = null;
